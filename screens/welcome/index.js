@@ -7,9 +7,7 @@ const WelcomeScreen = () => {
         <View style={styles.group} />
         <View style={styles.group}>
           <Image style={styles.logo} source={require("./logo.png")} />
-          <Text style={styles.text}>
-            Let's build something amazing together!
-          </Text>
+          <Text style={styles.text}>{"Campfire 4\n          "}</Text>
         </View>
         <Text style={styles.footer}>{"MDG Inc."}</Text>
       </ScrollView>
@@ -39,9 +37,15 @@ const styles = StyleSheet.create({
   },
   text: {
     textAlign: "center",
-    fontSize: 28,
+    fontSize: 40,
     color: "#828AB0",
-    fontWeight: 700
+    fontWeight: "700",
+    fontFamily: "Nunito",
+    position: "absolute",
+    left: 28,
+    top: 259,
+    width: 205,
+    height: 68
   },
   footer: {
     textAlign: "center",
