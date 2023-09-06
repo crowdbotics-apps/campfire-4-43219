@@ -26,7 +26,8 @@ const styles = StyleSheet.create({
     padding: 20
   },
   group: {
-    alignItems: "center"
+    alignItems: "center",
+    borderRadius: 0
   },
   logo: {
     height: 180,
